@@ -1,7 +1,7 @@
 # Studieplan - Fullstack
 
 Dette er mitt forsøk på å skaffe meg relevant og nødvendig erfaring som er
-skreddersydd for arbeidsgivere i Norge, spesielt i Agder.
+skreddersydd for arbeidsgivere i Norge.
 
 > **Bruk av KI**: Jeg bruker KI til å hjelpe meg med å forstå begreper, planlegge og gi forslag til fremgangsmåter. Mitt spesifike oppsett er Claude, med **learn** skill (laget av Anthropic), for å tvinge fram svar som fokuserer på læring, og ikke bare for å utføre en oppgave. Dette er for å sikre etisk KI-bruk.
 
@@ -9,9 +9,9 @@ Studieplanen er laget av Claude, hvorav ressurser som har blitt brukt er fra stu
 
 Jeg har allerede **høyere fagskolegrad** (2 år) i [Frontend-utvikling](https://www.noroff.no/studier/fagskole/frontend-utvikling), fra Noroff, og en **fagskolegrad** (1 år) i [UX-design](https://gokstadakademiet.no/studier/ux-design/) fra Gokstad Akademiet.
 
-## Ferdigheter som kommer igjen
+## Ferdigheter
 
-> Dette er basert på stillingsannonser som var ute ved den tid jeg lagde studieplanen. Det er verdt å merke at noen av disse er for senior roller, men det endrer ikke på det faktum at det er bra å kunne.
+> Dette er basert på stillingsannonser som var ute ved den tid jeg lagde studieplanen. Det er verdt å merke seg at noen av disse er for senior roller, men det endrer ikke på det faktum at det er bra å kunne.
 
 ### Krav
 
