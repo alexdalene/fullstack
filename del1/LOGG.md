@@ -2,7 +2,7 @@
 
 For å komme meg inn i riktig "mindset", ettersom jeg har vært borte fra utvikler-verden en liten stund, så starter jeg med grunnlaget. Harvard University sitt [CS50x](https://cs50.harvard.edu/x/) kurs, gratis og offentlig, er perfekt for dette. Det er en introduksjon til datavitenskap, som fokuserer på å lære problemløsning, både med og uten kode.
 
-> Kurset går gjennom: computational thinking, abstraction, algorithms, data structures og generell datavitenskap.
+> Kurset går gjennom: computational thinking, abstraksjon, algoritmer, datastrukturer og generell datavitenskap.
 
 ## C
 
