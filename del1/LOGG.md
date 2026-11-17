@@ -41,3 +41,7 @@ Hans Peter Luhn fra IBM lagde en algoritme som finner ut av akkurat dette, og de
 3. If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!
 
 Du kan se min versjon av dette, skrevet i C, uten arrays (ettersom vi "ikke har lært det enda"), og uten hjelp av KI (med et unntak om å bli forklart hvordan modulo (remainder) fungerer), i `del1/cs50/credit/credit.c`.
+
+### 17. november 2026
+
+Fullført to oppgaver fra [Problem Set 2](https://cs50.harvard.edu/x/psets/2/), som var ganske gøy å gjøre. Denne gangen kunne jeg bruke arrays, og flere funksjoner som jeg henter fra andre bibliotek. Så det gikk litt lettere generelt sett.
