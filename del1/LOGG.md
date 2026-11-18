@@ -45,3 +45,36 @@ Du kan se min versjon av dette, skrevet i C, uten arrays (ettersom vi "ikke har 
 ### 17. november 2026
 
 Fullført to oppgaver fra [Problem Set 2](https://cs50.harvard.edu/x/psets/2/), som var ganske gøy å gjøre. Denne gangen kunne jeg bruke arrays, og flere funksjoner som jeg henter fra andre bibliotek. Så det gikk litt lettere generelt sett.
+
+### 18. november 2026
+
+Ble ferdig med siste oppgave fra [Problem Set 2](https://cs50.harvard.edu/x/psets/2/), og har sett ferdig [Week 3](https://cs50.harvard.edu/x/weeks/3/). Denne oppgaven gikk relativt enklere enn de andre føler jeg, men kan være fordi jeg bare har blitt mer komfortabel med koding. Samme som sist; du kan se alle mine løsninger i `del1/cs50/`.
+
+Den siste oppgaven gikk ut på å kryptere tekst, basert på en key som brukeren kan gi gjennom CLI. Enkelt forklart, om jeg går ut i fra alfabetet, så har vi `ABCD`, og en key på `EFGH`. Om en bruker skriver ordet `Bad`, så ville det blitt kryptert til `Feh`. Under skrev jeg en enkel (tok litt tid å løse) algoritme i O(n^2), som sjekker at det ikke finnes duplikater av bokstaver i en `string`, som var et krav fra oppgaven.
+
+```c
+int validate_key(string key, int N)
+{
+    for (int i = 0; i < N; i++)
+    {
+        // Exit program if not alphabetical
+        if (!(isalpha(key[i])))
+        {
+            printf("Key must be only alphabetical characters\n");
+            return 1;
+        }
+
+        for (int j = i + 1; j < N; j++)
+        {
+            // Exit program if each letter appears more than once
+            if (key[i] == key[j])
+            {
+                printf("Key must contain each letter exactly once\n");
+                return 1;
+            }
+        }
+    }
+
+    return 0;
+}
+```
